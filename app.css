@@ -1,0 +1,35 @@
+.redDashed {
+    border:2px dashed red;
+}
+
+form{
+    display:flex;
+    flex-flow:column;
+    background:#e3e3e3;
+    }
+    
+    section{
+        display:flex;   
+        flex-flow:column;
+        background:#c0c0c0;
+        margin:10px;
+        max-width:600px;
+        justify-content:center;
+    }
+    
+    .keyValue{
+        display:flex;
+        justify-content:space-between;
+    }
+    label{
+        display:flex;
+        justify-content:left;
+        margin:5px;
+    }
+    input{
+        display:flex;
+        justify-content:left;
+        background:#e3e3e3;
+        margin:5px;
+        min-height:25px;
+    }

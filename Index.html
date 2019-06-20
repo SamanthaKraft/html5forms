@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML% forms</title>
+
+    <!-- <script type="text/javascript" src="https://api.pfm.us/cdn/iolibraries/pfm-ajax/ajax-auth.js"></script> cdn for ajax, stylesheet, others -->
+    <script type="text/javascript" src="App.js"></script>
+    <link href="https://api.pfm.us/cdn/css/pfm-core.min.css" rel="stylesheet"/>
+    <link href="app.css" rel="stylesheet"/>
+  </head>
+  <body>
+    
+    <form>
+        <section>
+            <div class="keyValue">
+              <label>Date:</label>
+              <input required pattern="^(0?[1-9]|[12][0-9]|3[01])[\/\-](0?[1-9]|1[012])[\/\-]\d{4}$"/>
+            </div>
+            <div class="keyValue">
+              <label>Z Date:</label>
+              <input readonly>
+            </div>
+            <div class="keyValue">
+              <label>Tail:</label>
+              <input required/>
+            </div>
+            <div class="keyValue">
+              <label>Dep-Arr:</label>
+              <input>
+            </div>            
+            <div class="keyValue">
+              <label>Leg #:</label>
+              <input type="number"/>
+            </div>
+            <div class="keyValue">
+              <label>Status:</label>
+              <input>
+            </div>            
+            <div class="keyValue">
+              <label>Sched Departure:</label>
+              <input required/>
+            </div>
+            <div class="keyValue">
+              <label>Sched Departure:</label>
+              <input>
+            </div>            
+            <div class="keyValue">
+              <label>Sched Arrival:</label>
+              <input required/>
+            </div>
+            <div class="keyValue">
+              <label>Sched Arrival:</label>
+              <input>
+            </div>            
+        </section>
+        <section>
+          <div class="keyValue">
+            <label>Block Out:</label>
+            <input/>
+          </div>
+          <div class="keyValue">
+            <label>Takeoff:</label>
+            <input>
+          </div>
+          <div class="keyValue">
+            <label>Landing:</label>
+            <input/>
+          </div>
+          <div class="keyValue">
+            <label>Block In:</label>
+            <input>
+          </div>            
+          <div class="keyValue">
+            <label>Approach:</label>
+            <input/>
+          </div>
+          <div class="keyValue">
+            <label>Appr Equipment:</label>
+            <input>
+          </div>
+        </section>
+        <button type="button" onclick="submitForm()">save</button>
+    </form>
+
+
+  </body>
+</html>

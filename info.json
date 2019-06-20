@@ -1,0 +1,13 @@
+{
+    "passengers":[
+        {"name":"John Wick", "age":"40", "needsLunch":"true"},
+        {"name":"Sarah Conners", "age":"32", "needsLunch":"true"}
+    ],
+    "crew":[
+        {"name":"Benny Jay", "current":"true"},
+        {"name":"John Jacob","current":"true"}
+    ],
+    "departure":"PHL",
+    "arival":"TEB",
+    "notes": null
+}
